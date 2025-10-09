@@ -15,6 +15,8 @@ if number3 < minimum:
 
 print('Minimum value is', minimum)
 
+print('Minimum value is', min(number1, number2, number3))
+print('Maximum value is', max(number1, number2, number3))
 ##########################################################################
 # (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
 # Pearson Education, Inc. All Rights Reserved.                           #
