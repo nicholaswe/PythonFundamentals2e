@@ -13,6 +13,8 @@ for grade in grades:
 
 # termination phase
 average = total / grade_counter
+
+# The f string (format string) allows you to input placeholders in a string via {}
 print(f'Class average is {average}')
 
 ##########################################################################

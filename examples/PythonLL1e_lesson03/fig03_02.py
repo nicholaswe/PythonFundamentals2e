@@ -16,6 +16,7 @@ while grade != -1:
 # termination phase
 if grade_counter != 0:
     average = total / grade_counter
+    # In this placeholder we are setting a format .2f which means to show the floating point using 2 decimals.
     print(f'Class average is {average:.2f}')
 else:
     print('No grades were entered')
